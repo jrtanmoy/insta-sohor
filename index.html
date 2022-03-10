@@ -77,6 +77,22 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section style="margin-top: 50px;">
+            <h2 style="text-align: center; color: rgb(80, 136, 240);">Questions Solution</h2>
+            <div>
+                <h4 style="margin-left: 150px;">1) How does javascript work?</h4>
+                <p style="margin-left: 150px; margin-right: 100px;">Answer: <br> Javascript is a single threaded, high level & interpreted programming language. When we writte some code and want to run then it works in an intersting way with the combination of browser. Every browser has different engine like chrome browser use v8 engine to execute javascript. However, when we run the code then firstly the code split into key&value pair and store in the memory. Then its reading & execute the code synchromonously. Synchromonous means every statement of the code gets executed one by one. So, basically a statement has to wait for the earlier statement to get executed. After finishing all the exetution, with the help of browser it's show the execution result in the UI. </p>
+            </div>
+            <div>
+                <h4 style="margin-left: 150px;">2) what does javascript event loop do?</h4>
+                <p style="margin-left: 150px; margin-right: 100px;">Answer: <br> ইভেন্ট লুপ হল জাভাস্ক্রিপ্ট রানটাইম মডেল। ইভেন্ট লুপ কল স্ট্যাক এবং ইভেন্ট queue চেক করার জন্য দায়ী। কল স্ট্যাক হচ্ছে স্ট্যাক ডেটা স্ট্রাকচার ছাড়া আর কিছুই নয় যেখানে কাজ বা কোড সেই অনুযায়ী কার্যকর করা হচ্ছে। আর ইভেন্ট queue হচ্ছে কিছু Asynchromonous টাইপের যেমন setTimeout(),setInterval(),fetch etc. কল স্ট্যাকের সমস্ত স্টেটমেন্ট এক্সিকিউশন শেষ হলে ইভেন্ট লুপ ইভেন্ট queue থেকে স্টেটমেন্ট pop করবে এবং কল স্ট্যাকের দিকে ঠেলে দেবে। এভাবে জাভাস্ক্রিপ্ট এর কোড গুলা চলতে থাকে এবং ইভেন্ট লুপ তার কাজ করে যায়।</p>
+            </div>
+            <div>
+                <h4 style="margin-left: 150px;">2) Difference between local storage and session storage?</h4>
+                <p style="margin-left: 150px; margin-right: 100px;">Answer: <br> In local storage the date will remain until we cleared the data but data in sessionStorage is cleared when the page session ends. We can get local storage and session storage data by using getItem(). We can also set both of the storage data by using setItem(). When we want to set object in the storage we have to stringify the object. And also when we want to read the object in the storage we have to parse the object.</p>
+            </div>
+            
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
